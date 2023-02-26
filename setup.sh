@@ -5,7 +5,6 @@ apt update
 apt upgrade
 printf '\n\033[1;32m Tiến Hành Cài Python\033[0m\n\n'
 pkg install python
-pip install --upgrade pip
 pip install requests
 curl -s https://raw.githubusercontent.com/bongocvidai/RunTool/main/ngocv3.2.py -o $home/usr/bin/ncngoc
 chmod 777 $home/usr/bin/ncngoc
