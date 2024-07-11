@@ -6,6 +6,9 @@ apt upgrade
 printf '\n\033[1;32m Tiến Hành Cài Python\033[0m\n\n'
 pkg install python
 pip install requests
+pip install pystyle
+pip install mechanize
+
 curl -s https://raw.githubusercontent.com/bongocvidai/RunTool/main/ngocv3.3.py -o $home/usr/bin/ncngoc
 chmod 777 $home/usr/bin/ncngoc
 
